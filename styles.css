@@ -7,7 +7,6 @@ body {
     background-attachment: fixed;
 }
 
-
 header {
     display:flex;
     background-color: #0D0D0D;
@@ -36,4 +35,31 @@ header nav ul li a {
     font-size: 15;
 }
 
-        
+.sprite {
+    background-image: url(https://cdn2.cocinadelirante.com/sites/all/themes/delirante/images/sprite.png);
+    background-repeat: no-repeat;
+    zoom: 1;
+    display: inline-block;
+}
+
+.face {
+    width: 36px;
+    height: 36px;
+    background-position: -7px -649px;
+    margin-right: 100px;
+}
+.twitter {
+    width: 36px;
+    height: 36px;
+    background-position: -47px -649px;
+}
+.ig {
+    width: 36px;
+    height: 36px;
+    background-position: -128px -649px;
+    margin-left: 100px;
+}
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
